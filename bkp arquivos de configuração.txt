@@ -1,0 +1,9 @@
+ssh -l senac 192.168.0.251
+
+enable 
+show flash:
+
+copy running-config startup-config 
+show flash:
+copy running-config tftp
+show running-config
